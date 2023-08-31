@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { JumbotronComponent } from './jumbotron/jumbotron.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   imports: [
@@ -20,7 +21,8 @@ import { JumbotronComponent } from './jumbotron/jumbotron.component';
     AppComponent,
     TopBarComponent,
     ProductListComponent,
-    JumbotronComponent
+    JumbotronComponent,
+    FooterComponent
   ],
   bootstrap: [
     AppComponent
